@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>LiteratureEvening.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">work</a> &gt; <a href="index.source.html" class="el_package">ua.lviv.iot.event.model</a> &gt; <span class="el_source">LiteratureEvening.java</span></div><h1>LiteratureEvening.java</h1><pre class="source lang-java linenums">package ua.lviv.iot.event.model;
+
+import ua.lviv.iot.event.enums.LiteratureTheme;
+
+public class LiteratureEvening extends ConcertHall {
+
+    private LiteratureTheme discussionTheme;
+
+    private String speakerName;
+
+    private int booksForSale;
+
+<span class="nc" id="L13">    public LiteratureEvening() {</span>
+
+<span class="nc" id="L15">    }</span>
+
+    public LiteratureEvening(final double tempTicketPrice,
+                             final double tempArenaSize,
+                             final String tempLocationStreet,
+                             final int tempEventDuration,
+                             final boolean tempAreThereMusicians,
+                             final int tempMusiciansQuantity,
+                             final LiteratureTheme tempDiscussionTheme,
+                             final String tempSpeakerName,
+                             final int tempBooksForSale) {
+<span class="fc" id="L26">        super(tempTicketPrice, tempArenaSize, tempLocationStreet,</span>
+                tempEventDuration, tempAreThereMusicians,
+                tempMusiciansQuantity);
+<span class="fc" id="L29">        this.discussionTheme = tempDiscussionTheme;</span>
+<span class="fc" id="L30">        this.speakerName = tempSpeakerName;</span>
+<span class="fc" id="L31">        this.booksForSale = tempBooksForSale;</span>
+<span class="fc" id="L32">    }</span>
+
+
+    public final LiteratureTheme getDiscussionTheme() {
+
+<span class="nc" id="L37">        return discussionTheme;</span>
+
+    }
+
+
+    public final void setDiscussionTheme(
+            final LiteratureTheme tempDiscussionTheme) {
+
+<span class="nc" id="L45">        this.discussionTheme = tempDiscussionTheme;</span>
+
+<span class="nc" id="L47">    }</span>
+
+    public final String getSpeakerName() {
+
+<span class="nc" id="L51">        return speakerName;</span>
+
+    }
+
+    public final void setSpeakerName(final String tempSpeakerName) {
+
+<span class="nc" id="L57">        this.speakerName = tempSpeakerName;</span>
+
+<span class="nc" id="L59">    }</span>
+
+    public final int getBooksForSale() {
+
+<span class="nc" id="L63">        return booksForSale;</span>
+
+    }
+
+    public final void setBooksForSale(final int tempBooksForSale) {
+
+<span class="nc" id="L69">        this.booksForSale = tempBooksForSale;</span>
+
+<span class="nc" id="L71">    }</span>
+
+    @Override
+    public String toString() {
+<span class="fc" id="L75">        return super.toString()</span>
+                + &quot;LiteratureEvening: &quot; + &quot;\n&quot;
+                + &quot;discussionTheme = &quot; + discussionTheme + &quot;\n&quot;
+                + &quot;speakerName = &quot; + speakerName + '\n'
+                + &quot;booksForSale = &quot; + booksForSale + &quot;\n&quot;;
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

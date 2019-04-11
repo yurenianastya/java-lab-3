@@ -1,0 +1,161 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: Main</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">ua.lviv.iot.event.manager</a> ]
+</div>
+
+<h1>Coverage Summary for Class: Main (ua.lviv.iot.event.manager)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Main</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 19)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package ua.lviv.iot.event.manager;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import ua.lviv.iot.event.enums.Age;
+<i>4</i>&nbsp;import ua.lviv.iot.event.enums.LiteratureTheme;
+<i>5</i>&nbsp;import ua.lviv.iot.event.enums.MusicGenre;
+<i>6</i>&nbsp;import ua.lviv.iot.event.model.ConcertHall;
+<i>7</i>&nbsp;import ua.lviv.iot.event.model.DiscoNightEvent;
+<i>8</i>&nbsp;import ua.lviv.iot.event.model.LiteratureEvening;
+<i>9</i>&nbsp;import ua.lviv.iot.event.model.MusicEvent;
+<i>10</i>&nbsp;
+<i>11</i>&nbsp;import java.util.List;
+<i>12</i>&nbsp;
+<i>13</i>&nbsp;
+<i>14</i>&nbsp;public final class Main {
+<i>15</i>&nbsp;
+<b class="nc"><i>16</i>&nbsp;    private Main() {</b>
+<i>17</i>&nbsp;
+<i>18</i>&nbsp;    }
+<i>19</i>&nbsp;
+<i>20</i>&nbsp;            public static void main(final String[] args) {
+<i>21</i>&nbsp;
+<b class="nc"><i>22</i>&nbsp;               EventManager manager = new EventManager();</b>
+<i>23</i>&nbsp;
+<i>24</i>&nbsp;                List&lt;ConcertHall&gt; eventsListTemp;
+<i>25</i>&nbsp;
+<b class="nc"><i>26</i>&nbsp;                eventsListTemp = manager.getEventsList();</b>
+<i>27</i>&nbsp;
+<b class="nc"><i>28</i>&nbsp;                ConcertHall arcadeFireConcert = new MusicEvent(50.0,</b>
+<i>29</i>&nbsp;                        360.0, &quot;Pid Dubom Street&quot;,
+<i>30</i>&nbsp;                        2, true,
+<i>31</i>&nbsp;                        5, MusicGenre.INDIE,
+<i>32</i>&nbsp;                        7, &quot;Arcade_Fire&quot;);
+<i>33</i>&nbsp;
+<b class="nc"><i>34</i>&nbsp;                ConcertHall xParty = new DiscoNightEvent(154.0, 641.0,</b>
+<i>35</i>&nbsp;                        &quot;Staroyevreyska Street&quot;,
+<i>36</i>&nbsp;                        3, true,
+<i>37</i>&nbsp;                        1, Age.AGE_18_PLUS,
+<i>38</i>&nbsp;                        MusicGenre.ELECTRONIC, &quot;Black&#39;n&#39;White&quot;);
+<i>39</i>&nbsp;
+<b class="nc"><i>40</i>&nbsp;                ConcertHall modernUkrLitEvening = new LiteratureEvening(67.7,</b>
+<i>41</i>&nbsp;                        34.5, &quot;Antonovycha Street&quot;,
+<i>42</i>&nbsp;                        4, false,
+<i>43</i>&nbsp;                        0, LiteratureTheme.HISTORICAL,
+<i>44</i>&nbsp;                        &quot;Yuriy Andrukhovych&quot;, 35);
+<i>45</i>&nbsp;
+<i>46</i>&nbsp;
+<b class="nc"><i>47</i>&nbsp;                manager.addEvent(arcadeFireConcert);</b>
+<i>48</i>&nbsp;
+<b class="nc"><i>49</i>&nbsp;                manager.addEvent(xParty);</b>
+<i>50</i>&nbsp;
+<b class="nc"><i>51</i>&nbsp;                manager.addEvent(modernUkrLitEvening);</b>
+<i>52</i>&nbsp;
+<b class="nc"><i>53</i>&nbsp;                System.out.println(&quot;MUSIC EVENT - ARCADE FIRE&quot;</b>
+<i>54</i>&nbsp;                        + &quot;\n&quot; + arcadeFireConcert + &quot;\n&quot;);
+<i>55</i>&nbsp;
+<b class="nc"><i>56</i>&nbsp;                System.out.println(&quot;LITERATURE EVENT - WRITER&#39;S EVENING&quot;</b>
+<i>57</i>&nbsp;                        + &quot;\n&quot; + modernUkrLitEvening + &quot;\n&quot;);
+<i>58</i>&nbsp;
+<b class="nc"><i>59</i>&nbsp;                System.out.println(&quot;DISCONIGHT EVENT - STUDENT PARTY&quot;</b>
+<i>60</i>&nbsp;                        + &quot;\n&quot; + xParty + &quot;\n&quot;);
+<i>61</i>&nbsp;
+<b class="nc"><i>62</i>&nbsp;                System.out.println(&quot;WITH MUSICIANS ONLY&quot;</b>
+<b class="nc"><i>63</i>&nbsp;                       + &quot;\n&quot; + manager.findWithMusicians(true) + &quot;\n&quot;);</b>
+<i>64</i>&nbsp;
+<b class="nc"><i>65</i>&nbsp;                System.out.println(&quot;MUSICIANS SORT&quot;</b>
+<b class="nc"><i>66</i>&nbsp;                        + &quot;\n&quot; + manager.musiciansSort(eventsListTemp,</b>
+<i>67</i>&nbsp;                        true) + &quot;\n&quot;);
+<i>68</i>&nbsp;
+<b class="nc"><i>69</i>&nbsp;                System.out.println(&quot;PRICE SORT&quot; + &quot;\n&quot; +</b>
+<b class="nc"><i>70</i>&nbsp;                        manager.sortByAveragePrice(eventsListTemp, true)</b>
+<i>71</i>&nbsp;                        + &quot;\n&quot;);
+<i>72</i>&nbsp;
+<i>73</i>&nbsp;
+<b class="nc"><i>74</i>&nbsp;                System.out.println(manager.findWithMusicians(false));</b>
+<i>75</i>&nbsp;
+<i>76</i>&nbsp;            }
+<i>77</i>&nbsp;
+<i>78</i>&nbsp;        }
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-04-10 22:50</div>
+</div>
+</body>
+</html>

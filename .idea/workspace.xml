@@ -12,6 +12,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -29,16 +32,68 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="ConcertHall" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/EventManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/manager/EventManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/DiscoNightEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-769">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1830">
-              <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+            <state relative-caret-position="206">
+              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -50,6 +105,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -90,15 +146,22 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/enums/MusicGenre.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/enums/LiteratureTheme.java" />
         <option value="$PROJECT_DIR$/work/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/config/checkstyle.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/EventManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/ConcertHall.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/DiscoNightEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/MusicEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/LiteratureEvening.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/CircusEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/LiteratureEvening.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/model/CircusEventTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/model/LiteratureEveningTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/model/DiscoNightEventTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/model/MusicEventTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/manager/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/model/ConcertHallTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/ConcertHall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/EventManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/config/checkstyle.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/manager/EventManagerTest.java" />
       </list>
     </option>
   </component>
@@ -125,6 +188,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="work" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="work" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -153,11 +221,6 @@
               <item name="ConcertHall" type="b2602c69:ProjectViewProjectNode" />
               <item name="ConcertHall" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ConcertHall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConcertHall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -169,15 +232,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553868017910" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="ua.lviv.iot.event.model.ConcertHallTest" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ua.lviv.iot.event.manager" />
+      <recent name="ua.lviv.iot.event.model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="ua.lviv.iot.event.model.ConcertHallTest" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/work/src/main/java" />
       <recent name="$PROJECT_DIR$/work/src/main/java/" />
@@ -186,6 +259,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="Main" />
+      <command value="?" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -200,17 +274,94 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.event.manager.Main" />
+  <component name="RunManager" selected="JUnit.EventManagerTest.testAnotherMusicEventConstructor">
+    <configuration name="EventManagerTest.testAnotherMusicEventConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConcertHall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.event.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.event.manager" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.event.manager.EventManagerTest" />
+      <option name="METHOD_NAME" value="testAnotherMusicEventConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventManagerTest.testFingWithMusiciansOneList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConcertHall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.event.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.event.manager" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.event.manager.EventManagerTest" />
+      <option name="METHOD_NAME" value="testFingWithMusiciansOneList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventManagerTest.testMusiciansSortByIncreasing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConcertHall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.event.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.event.manager" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.event.manager.EventManagerTest" />
+      <option name="METHOD_NAME" value="testMusiciansSortByIncreasing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventManagerTest.testToStringCircusEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConcertHall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.event.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.event.manager" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.event.manager.EventManagerTest" />
+      <option name="METHOD_NAME" value="testToStringCircusEvent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventManagerTest.testToStringDiscoNightEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConcertHall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.event.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.event.manager" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.event.manager.EventManagerTest" />
+      <option name="METHOD_NAME" value="testToStringDiscoNightEvent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.EventManagerTest.testAnotherMusicEventConstructor" />
+        <item itemvalue="JUnit.EventManagerTest.testToStringDiscoNightEvent" />
+        <item itemvalue="JUnit.EventManagerTest.testToStringCircusEvent" />
+        <item itemvalue="JUnit.EventManagerTest.testFingWithMusiciansOneList" />
+        <item itemvalue="JUnit.EventManagerTest.testMusiciansSortByIncreasing" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +393,12 @@
       <workItem from="1553542956840" duration="5538000" />
       <workItem from="1553603284296" duration="7587000" />
       <workItem from="1553878179413" duration="2003000" />
-      <workItem from="1554062435505" duration="4590000" />
+      <workItem from="1554062435505" duration="5192000" />
+      <workItem from="1554105131421" duration="4128000" />
+      <workItem from="1554372745218" duration="598000" />
+      <workItem from="1554467010270" duration="37905000" />
+      <workItem from="1554809230760" duration="15937000" />
+      <workItem from="1554962809261" duration="4695000" />
     </task>
     <task id="LOCAL-00001" summary="updated third java lab">
       <created>1552928028395</created>
@@ -261,8 +417,40 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="EventManagerTest_testToStringCircusEvent - 2019.04.11 at 01h 20m 17s.xml">
+      <configuration name="EventManagerTest.testToStringCircusEvent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventManagerTest_testToStringCircusEvent - 2019.04.11 at 01h 23m 24s.xml">
+      <configuration name="EventManagerTest.testToStringCircusEvent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventManagerTest_testToStringDiscoNightEvent - 2019.04.11 at 09h 19m 06s.xml">
+      <configuration name="EventManagerTest.testToStringDiscoNightEvent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventManagerTest_testToStringDiscoNightEvent - 2019.04.11 at 09h 19m 43s.xml">
+      <configuration name="EventManagerTest.testToStringDiscoNightEvent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventManagerTest_testAnotherMusicEventConstructor - 2019.04.11 at 09h 24m 27s.xml">
+      <configuration name="EventManagerTest.testAnotherMusicEventConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventManagerTest_testAnotherMusicEventConstructor - 2019.04.11 at 09h 32m 26s.xml">
+      <configuration name="EventManagerTest.testAnotherMusicEventConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventManagerTest_testAnotherMusicEventConstructor - 2019.04.11 at 09h 32m 35s.xml">
+      <configuration name="EventManagerTest.testAnotherMusicEventConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventManagerTest_testAnotherMusicEventConstructor - 2019.04.11 at 09h 36m 01s.xml">
+      <configuration name="EventManagerTest.testAnotherMusicEventConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventManagerTest_testAnotherMusicEventConstructor - 2019.04.11 at 09h 36m 44s.xml">
+      <configuration name="EventManagerTest.testAnotherMusicEventConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventManagerTest_testAnotherMusicEventConstructor - 2019.04.11 at 09h 37m 09s.xml">
+      <configuration name="EventManagerTest.testAnotherMusicEventConstructor" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54946000" />
+    <option name="totallyTimeSpent" value="118811000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,8 +463,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="670" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49536178" visible="true" weight="0.29954615" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49536178" visible="true" weight="0.32223904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -286,12 +475,45 @@
       <window_info id="Learn" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8404453" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5194805" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39888683" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3265306" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4977307" weight="0.49536178" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" weight="0.49536178" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924242" weight="0.6252319" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3283582" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3290469" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3290469" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.34114978" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49536178" visible="true" weight="0.31770045" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5046382" side_tool="true" weight="0.290469" />
+      <window_info id="Learn" order="7" weight="0.32954547" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5194805" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3265306" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" weight="0.49536178" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" visible="true" weight="0.49536178" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.49536178" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924242" weight="0.6252319" />
@@ -303,40 +525,10 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.3290469" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32954547" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3290469" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Learn" order="0" weight="0.32954547" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.3283582" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +545,14 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ConcertHall$EventManagerTest_testGetterSetter.ic" NAME="EventManagerTest.testGetterSetter Coverage Results" MODIFIED="1554728776029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.lviv.iot.event.manager.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ConcertHall$EventManagerTest.ic" NAME="EventManagerTest Coverage Results" MODIFIED="1554728795186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.lviv.iot.event.manager.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/event/model/MusicEvent.java" />
@@ -378,23 +578,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/target/site/project-reports.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/project-reports.html" />
+    <entry file="file://$PROJECT_DIR$/target/site/index.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/enums/Age.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/enums/MusicGenre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -416,82 +605,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/model/ConcertHallTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/model/CircusEventTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/model/DiscoNightEventTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/model/LiteratureEveningTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/model/MusicEventTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/manager/MainTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/model/ConcertHallTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/enums/MusicGenre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/EventManager.java">
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/ArrayList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="470" selection-start-line="470" selection-end-line="470" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/function/Predicate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/config/checkstyle.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/ConcertHall.java">
+    <entry file="file://$PROJECT_DIR$/target/test-classes/ua/lviv/iot/event/manager/EventManagerTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="101" column="77" lean-forward="true" selection-start-line="101" selection-start-column="77" selection-end-line="101" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/DiscoNightEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="-597">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#2778#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/MusicEvent.java">
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Collections.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="15">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#1703#1704#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/jacoco/jacoco.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/jacoco/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/LiteratureEvening.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-120">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/CircusEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="55" column="72" lean-forward="true" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
+        <state relative-caret-position="15">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/MusicEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-645">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/EventManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+        <state relative-caret-position="206">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/DiscoNightEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-769">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/ConcertHall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_SORT_BY_NAME_DESC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/manager/EventManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -560,7 +809,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:3.8.1</last-edited>
+          <last-edited>Maven: com.openpojo:openpojo:0.8.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -44,54 +44,54 @@ under the License.
         </library>
       </orderEntry>
      -->  
-    <output url="file://$MODULE_DIR$/target/classes"/>
-    <output-test url="file://$MODULE_DIR$/target/test-classes"/>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/nastya/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar!/"/>
-        </CLASSES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/nastya/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.2.0/junit-jupiter-engine-5.2.0.jar!/"/>
-        </CLASSES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
+    <output url="file://$MODULE_DIR$/target/classes"/>  
+    <output-test url="file://$MODULE_DIR$/target/test-classes"/>  
+    <orderEntry type="module-library"> 
+      <library> 
         <CLASSES>
           <root url="jar:///home/nastya/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar!/"/>
         </CLASSES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library> 
         <CLASSES>
-          <root url="jar:///home/nastya/.m2/repository/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar!/"/>
+          <root url="jar:///home/nastya/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar!/"/>
         </CLASSES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library> 
         <CLASSES>
-          <root url="jar:///home/nastya/.m2/repository/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar!/"/>
+          <root url="jar:///home/nastya/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar!/"/>
         </CLASSES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library> 
         <CLASSES>
-          <root url="jar:///home/nastya/.m2/repository/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar!/"/>
+          <root url="jar:///home/nastya/.m2/repository/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar!/"/>
         </CLASSES>
-      </library>
-    </orderEntry>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library> 
+        <CLASSES>
+          <root url="jar:///home/nastya/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar!/"/>
+        </CLASSES>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library> 
+        <CLASSES>
+          <root url="jar:///home/nastya/.m2/repository/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar!/"/>
+        </CLASSES>
+      </library> 
+    </orderEntry>  
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/nastya/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.2.0/junit-jupiter-api-5.2.0.jar!/"/>
+          <root url="jar:///home/nastya/.m2/repository/com/openpojo/openpojo/0.8.10/openpojo-0.8.10.jar!/"/>
         </CLASSES>
       </library>
     </orderEntry>

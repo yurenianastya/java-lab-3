@@ -1,0 +1,11 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+work,ua.lviv.iot.event.manager,Main,141,0,0,0,19,0,1,0,1,0
+work,ua.lviv.iot.event.manager,EventManager,0,65,0,4,0,18,0,11,0,9
+work,ua.lviv.iot.event.model,ConcertHall,27,78,0,0,13,16,7,8,7,8
+work,ua.lviv.iot.event.model,MusicEvent,33,55,0,0,13,11,8,3,8,3
+work,ua.lviv.iot.event.model,CircusEvent,6,39,0,0,2,9,2,5,2,5
+work,ua.lviv.iot.event.model,DiscoNightEvent,21,46,0,0,9,8,6,3,6,3
+work,ua.lviv.iot.event.model,LiteratureEvening,24,45,0,0,11,6,7,2,7,2
+work,ua.lviv.iot.event.enums,Age,0,34,0,0,0,2,0,1,0,1
+work,ua.lviv.iot.event.enums,LiteratureTheme,0,74,0,0,0,3,0,1,0,1
+work,ua.lviv.iot.event.enums,MusicGenre,0,124,0,0,0,4,0,1,0,1
