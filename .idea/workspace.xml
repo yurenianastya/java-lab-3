@@ -44,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/EventManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
+            <state relative-caret-position="990">
               <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -53,14 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/manager/EventManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -68,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/DiscoNightEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-769">
+            <state relative-caret-position="60">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="330">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="1485">
               <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
             </state>
           </provider>
@@ -162,6 +159,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/config/checkstyle.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/manager/EventManagerTest.java" />
+        <option value="$PROJECT_DIR$/ConcertHall.iml" />
       </list>
     </option>
   </component>
@@ -212,8 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,10 +217,29 @@
               <item name="ConcertHall" type="b2602c69:ProjectViewProjectNode" />
               <item name="ConcertHall" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ConcertHall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConcertHall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConcertHall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConcertHall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConcertHall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConcertHall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,7 +413,11 @@
       <workItem from="1554372745218" duration="598000" />
       <workItem from="1554467010270" duration="37905000" />
       <workItem from="1554809230760" duration="15937000" />
-      <workItem from="1554962809261" duration="4695000" />
+      <workItem from="1554962809261" duration="5100000" />
+      <workItem from="1554979126113" duration="287000" />
+      <workItem from="1554979453827" duration="39000" />
+      <workItem from="1554979521971" duration="696000" />
+      <workItem from="1555242395124" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="updated third java lab">
       <created>1552928028395</created>
@@ -418,12 +437,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EventManagerTest_testToStringCircusEvent - 2019.04.11 at 01h 20m 17s.xml">
-      <configuration name="EventManagerTest.testToStringCircusEvent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventManagerTest_testToStringCircusEvent - 2019.04.11 at 01h 23m 24s.xml">
-      <configuration name="EventManagerTest.testToStringCircusEvent" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EventManagerTest_testToStringDiscoNightEvent - 2019.04.11 at 09h 19m 06s.xml">
       <configuration name="EventManagerTest.testToStringDiscoNightEvent" configurationId="JUnit" />
     </history-entry>
@@ -448,9 +461,15 @@
     <history-entry file="EventManagerTest_testAnotherMusicEventConstructor - 2019.04.11 at 09h 37m 09s.xml">
       <configuration name="EventManagerTest.testAnotherMusicEventConstructor" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EventManagerTest_testAnotherMusicEventConstructor - 2019.04.11 at 13h 39m 24s.xml">
+      <configuration name="EventManagerTest.testAnotherMusicEventConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventManagerTest_testAnotherMusicEventConstructor - 2019.04.11 at 13h 45m 36s.xml">
+      <configuration name="EventManagerTest.testAnotherMusicEventConstructor" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118811000" />
+    <option name="totallyTimeSpent" value="120837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,7 +484,7 @@
     <frame x="0" y="27" width="1366" height="670" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49536178" visible="true" weight="0.32223904" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49536178" visible="true" weight="0.34341908" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -685,43 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/EventManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/DiscoNightEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-769">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/ConcertHall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -734,10 +716,54 @@
         <state relative-caret-position="-675" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.css/coverage.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConcertHall.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/EventManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/event/manager/EventManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
+        <state relative-caret-position="180">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/model/DiscoNightEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/event/manager/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
