@@ -72,6 +72,19 @@ public class DiscoNightEvent extends ConcertHall {
 
     }
 
+    public String getHeaders() {
+
+        return super.getHeaders() + ", Age" + ", Dress Code" + ", Music Genre";
+
+    }
+
+    public String toCSV() {
+
+        return super.toCSV() + ", " + this.getAgeRestriction() + ", "
+                + this.getSpecificDressCode() + ", " + this.getMusicForParty();
+
+    }
+
     @Override
     public String toString() {
         return super.toString()

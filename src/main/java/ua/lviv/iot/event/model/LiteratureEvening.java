@@ -70,6 +70,20 @@ public class LiteratureEvening extends ConcertHall {
 
     }
 
+    public String getHeaders() {
+
+        return super.getHeaders() + ", Discussion Theme" + ", Speaker's Name"
+                + ", Number Of Books";
+
+    }
+
+    public String toCSV() {
+
+        return super.toCSV() + " ," + this.getDiscussionTheme() + ", "
+                + this.getSpeakerName() + ", " + this.getBooksForSale();
+
+    }
+
     @Override
     public String toString() {
         return super.toString()

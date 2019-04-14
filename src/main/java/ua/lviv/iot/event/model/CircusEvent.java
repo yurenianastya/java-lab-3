@@ -49,6 +49,19 @@ public class CircusEvent extends ConcertHall {
 
     }
 
+    public String getHeaders() {
+
+        return super.getHeaders() + ", Circus City" + ", Circus Number Of Equipment";
+
+    }
+
+    public String toCSV() {
+
+        return super.toCSV() + ", " + this.getOriginalCircusCity() + ", "
+                + this.getCircusEquipmentQuantity();
+
+    }
+
     @Override
     public String toString() {
         return "CircusEvent{"
