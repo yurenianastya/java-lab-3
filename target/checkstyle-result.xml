@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.18">
+<file name="/home/nastya/IdeaProjects/ConcertHall/src/main/java/ua/lviv/iot/event/enums/MusicGenre.java">
+</file>
+<file name="/home/nastya/IdeaProjects/ConcertHall/src/main/java/ua/lviv/iot/event/enums/Age.java">
+</file>
+<file name="/home/nastya/IdeaProjects/ConcertHall/src/main/java/ua/lviv/iot/event/enums/LiteratureTheme.java">
+</file>
+<file name="/home/nastya/IdeaProjects/ConcertHall/src/main/java/ua/lviv/iot/event/manager/EventManager.java">
+<error line="32" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 5, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/nastya/IdeaProjects/ConcertHall/src/main/java/ua/lviv/iot/event/manager/Main.java">
+<error line="20" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 12, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 15, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="26" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="34" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="34" column="29" severity="warning" message="Local variable name &apos;xParty&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="40" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="47" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="49" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="51" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="53" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="56" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="59" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="62" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="65" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="69" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="74" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="76" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 12, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="78" severity="warning" message="&apos;class def rcurly&apos; have incorrect indentation level 8, expected level should be 0." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/nastya/IdeaProjects/ConcertHall/src/main/java/ua/lviv/iot/event/model/ConcertHall.java">
+</file>
+<file name="/home/nastya/IdeaProjects/ConcertHall/src/main/java/ua/lviv/iot/event/model/CircusEvent.java">
+</file>
+<file name="/home/nastya/IdeaProjects/ConcertHall/src/main/java/ua/lviv/iot/event/model/DiscoNightEvent.java">
+</file>
+<file name="/home/nastya/IdeaProjects/ConcertHall/src/main/java/ua/lviv/iot/event/model/LiteratureEvening.java">
+</file>
+<file name="/home/nastya/IdeaProjects/ConcertHall/src/main/java/ua/lviv/iot/event/model/MusicEvent.java">
+</file>
+</checkstyle>
