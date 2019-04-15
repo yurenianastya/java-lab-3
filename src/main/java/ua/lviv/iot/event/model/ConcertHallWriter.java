@@ -20,25 +20,14 @@ public class ConcertHallWriter {
              OutputStreamWriter osw = new OutputStreamWriter(fos);
              BufferedWriter buffWriter = new BufferedWriter(osw)) {
 
-            for (int walkingNumber = 0; walkingNumber < events.size(); walkingNumber++) {
+            for (ConcertHall event : events) {
 
-                buffWriter.write(events.get(walkingNumber).getHeaders());
+                buffWriter.write(event.getHeaders());
                 buffWriter.newLine();
-                buffWriter.write(events.get(walkingNumber).toCSV());
-
-                if (walkingNumber < events.size() - 1) {
-
-                    buffWriter.newLine();
+                buffWriter.write(event.toCSV());
+                buffWriter.newLine();
 
                 }
             }
-
-
-        } finally {
-
         }
-
     }
-
-
-}
