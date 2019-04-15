@@ -87,6 +87,20 @@ public class MusicEvent extends ConcertHall {
 
     }
 
+    public String getHeaders() {
+
+        return super.getHeaders() + ", Music Genre" + ", Instruments Count"
+                + ", Band's Name";
+
+    }
+
+    public String toCSV() {
+
+        return super.toCSV() + ", " + this.getEventGenre() + ", "
+                + this.getInstrumentsCount() + ", " + this.getBandName();
+
+    }
+
     @Override
     public String toString() {
         return super.toString()

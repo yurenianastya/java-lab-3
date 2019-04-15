@@ -14,6 +14,8 @@ public class ConcertHall {
 
     private int musiciansQuantity;
 
+    private String origin;
+
     public ConcertHall() {
 
     }
@@ -102,6 +104,23 @@ public class ConcertHall {
     public final void setMusiciansQuantity(final int tempMusiciansQuantity) {
 
         this.musiciansQuantity = tempMusiciansQuantity;
+
+    }
+
+    public String getHeaders() {
+
+         return "Location Street " + ", Arena Size"
+                + ", Event Duration" + ", Musicians Quantity"
+                + ", Are There Musicians" + ", Ticket Price";
+
+    }
+
+    public String toCSV() {
+
+        return this.getLocationStreet() + ", " + this.getArenaSize() + ", "
+                + this.getEventDuration() + ", " + this.getMusiciansQuantity()
+                + ", " + this.isAreThereMusicians() + ", "
+                + this.getTicketPrice();
 
     }
 
